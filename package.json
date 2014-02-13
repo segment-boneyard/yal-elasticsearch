@@ -1,0 +1,29 @@
+{
+  "name": "yal-elasticsearch",
+  "version": "0.0.1",
+  "description": "Elasticsearch plugin for yal-server",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/segmentio/yal-elasticsearch"
+  },
+  "keywords": [
+    "logging",
+    "log",
+    "elasticsearch",
+    "elastic",
+    "search",
+    "yal",
+    "yal-server"
+  ],
+  "author": "TJ Holowaychuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/segmentio/yal-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/segmentio/yal-elasticsearch",
+  "dependencies": {
+    "moment": "~2.5.1",
+    "elastical": "0.0.13"
+  }
+}
