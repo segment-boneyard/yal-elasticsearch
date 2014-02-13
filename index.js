@@ -54,7 +54,7 @@ function ES(addr) {
  */
 
 ES.prototype.index = function(msg, fn){
-  msg.message = JSON.stringify(msg.message, null, 2);
+  msg.message = JSON.stringify(msg.message);
   this.client.index(this._index, msg.type, msg, fn);
 };
 
