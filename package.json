@@ -1,6 +1,6 @@
 {
   "name": "yal-elasticsearch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Elasticsearch plugin for yal-server",
   "main": "index.js",
   "repository": {
